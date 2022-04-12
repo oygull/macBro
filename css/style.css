@@ -13,6 +13,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
 }
 .slider-item{
   width: 100px;
@@ -131,4 +132,22 @@ margin-bottom: 10px;
   width: 450px;
   height: 450px;
   overflow-x: hidden;
+}
+@media screen and (max-width: 400px){
+.slider-item{
+  width: 50px;
+  height: 50px;
+}
+.main-slider{
+  width: 300px;
+  height: 300px;
+}
+.main-imgbox{
+  width: 300px;
+  height: 300px;
+}
+}
+.active-btn{
+  border-color: #08c;
+  box-shadow: 0 0 1px 1px #08c;
 }
